@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR1a0003/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1a0003/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 周易鄭康成注
+  date: '2015-09-12 00:39:40.838472'
+  source:
+    repository: kanripo
+    path: KR1a0003
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1a0003_000-WYG.yaml, hash: 'sha256:f54cd42846f2e0533d4ef995efb5f5715f0698620d1fb8fed08c1353b3aaf6b4'}
+  - {seq: 1, filename: KR1a0003_001-WYG.yaml, hash: 'sha256:832397b633e47424bc565da6a90eac84b4812a4a384d646d315b84c9e6d8ce68'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1a0003_000-WYG.markers.yaml, hash: 'sha256:b6749dd2476b9dcdefb495b85a245865071c0122089131e93ecff961facc337f'}
+  - {seq: 1, role: markers, filename: assets/KR1a0003_001-WYG.markers.yaml, hash: 'sha256:8ae7d11e079e9c62dbee5fcefd6da94b801a5eb0943fa621d551e10fae5aaad8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1a0003_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 485
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1a0003_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8774
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:0227c47620e2758fd260be42a1c93a72cd959f6acb7e698347ca3fc5eda21422

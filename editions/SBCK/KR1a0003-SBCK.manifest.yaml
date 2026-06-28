@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR1a0003/SBCK/v1
+canonical_location: https://kanripo.org/bkk/KR1a0003/SBCK/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 周易鄭康成注
+  date: '2015-09-12 00:39:40.838472'
+  source:
+    repository: kanripo
+    path: KR1a0003
+  edition:
+    short: SBCK
+    label: 【四部叢刊】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1a0003_000-SBCK.yaml, hash: 'sha256:335e6d803bbf0930f3f1637af3f51323efb3876d122251be13e91a7537ddc81f'}
+  - {seq: 1, filename: KR1a0003_001-SBCK.yaml, hash: 'sha256:1a99bf6df7498c9c533aece7a460e4531be3dcf9a9f4dda1c6c7f128fae90ea3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1a0003_000-SBCK.markers.yaml, hash: 'sha256:477542b7112099269d1fa4ebcb1dde76997423a8ace38d56dc882e867c247eb2'}
+  - {seq: 1, role: markers, filename: assets/KR1a0003_001-SBCK.markers.yaml, hash: 'sha256:7e2aa61fc915d648f983cf91b7aff14c4293b634c792066a04deeb26fd05092c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1a0003_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 509
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1a0003_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 8305
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:b464e9b371bd3c763bf5c0b59f02eda64c21766eb56554af9661c0a4945c62c4
